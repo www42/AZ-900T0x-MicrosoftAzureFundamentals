@@ -1,5 +1,9 @@
 Get-Module -Name AzureAD -ListAvailable
-Get-Module -Name AzureAD.Standard.Preview -ListAvailable
+Get-Module -Name AzureADPreview -ListAvailable
+
+Import-Module -Name AzureAD
+
+Connect-AzureAD
 
 $Users = Import-Csv -Path ./Users.csv
 
