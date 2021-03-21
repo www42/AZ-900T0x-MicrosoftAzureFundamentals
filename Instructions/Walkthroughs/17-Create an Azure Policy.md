@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '14 - Create an Azure Policy'
-    module: 'Module 03 - Security, Privacy, Compliance and Trust'
+    title: '17 - Create an Azure Policy (10 min)'
+    module: 'Module 05: Describe identity, governance, privacy, and compliance features'
 ---
-# 14 - Create an Azure Policy
+# 17 - Create an Azure Policy
 
 In this walkthrough, we will create an Azure Policy to restrict deployment of Azure resources to a specific location.
 
-# Task 1: Create a Policy assignment
+# Task 1: Create a Policy assignment (10 min)
 
 In this task, we will configure the allowed location policy and assign it to our subscription. 
 
@@ -45,7 +45,7 @@ In this task, we will configure the allowed location policy and assign it to our
 
 In this task, we will test the Allowed location policy. 
 
-1. In the Azure Portal, from the **All services** blade, search for and select **Storage accounts**, and then click **+ Add**.
+1. In the Azure Portal, from the **All services** blade, search for and select **Storage accounts**, and then click **+ Add, + Create, or + New**.
 
 2. Configure the storage account (replace **xxxx** in the name of the storage account with letters and digits such that the name is globally unique). Leave the defaults for everything else. 
 

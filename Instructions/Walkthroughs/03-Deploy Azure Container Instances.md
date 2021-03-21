@@ -1,20 +1,20 @@
 ---
 wts:
-    title: '02 - Deploy Azure Container Instances'
-    module: 'Module 02 - Core Azure Services'
+    title: '03 - Deploy Azure Container Instances (10 min)'
+    module: 'Module 02 - Core Azure Services (Workloads)'
 ---
 
-# 02 - Deploy Azure Container Instances
+# 03 - Deploy Azure Container Instances
 
 In this walkthrough we create, configure, and deploy a Docker container by using Azure Container Instances (ACI) in the Azure Portal. The container is a Welcome to ACI web application that displays a static HTML page. 
 
-# Task 1: Create a container instance
+# Task 1: Create a container instance (10 min)
 
 In this task, we will create a new container instance for the web application. 
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-2. From the **All services** blade, search for and select **Container instances** and then click **+ Add**. 
+2. From the **All services** blade, search for and select **Container instances** and then click **+ Add, + Create, or + New**. 
 
 3. Provide the following Basic details for the new container instance  (leave the defaults for everything else)): 
 
@@ -31,7 +31,6 @@ In this task, we will create a new container instance for the web application.
 	| Size| ***Leave at the default***|
 	|||
 
-
 4. Configure the Networking tab (replace **xxxx** with letters and digits such that the name is globally unique). Leave all other settings at their default values .
 
 	| Setting| Value|
@@ -39,7 +38,8 @@ In this task, we will create a new container instance for the web application.
 	| DNS name label| **mycontainerdnsxxxx** |
 	|||
 	
-	**Note**: Your container will be publicly reachable at dns-name-label.region.azurecontainer.io. If you receive a **DNS name label not available** error message following the deployment, specify a different DNS name label and re-deploy.
+	**Note**: Your container will be publicly reachable at dns-name-label.region.azurecontainer.io. If you receive a **DNS name label not available** error message following the deployment, specify a different DNS name label (don't use xxxx) and re-deploy. 
+
 
 	![Screenshot of the configuration pane of the create container instances blade, in Azure portal, with the DNS name label entered. ](../images/0201.png)
 

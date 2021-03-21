@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '10 - Create a VM with PowerShell'
-    module: 'Module 02 - Core Azure Services'
+    title: '10 - Create a VM with PowerShell (10 min)'
+    module: 'Module 03: Describe core solutions and management tools'
 ---
 # 10 - Create a VM with PowerShell
 
 In this walk-through, we will configure the Cloud Shell, use Azure PowerShell module to create a resource group and virtual machine, and review Azure Advisor recommendations. 
 
-# Task 1: Configure the Cloud Shell
+# Task 1: Configure the Cloud Shell (10 min)
 
 In this task, we will configure Cloud Shell. 
 
@@ -19,7 +19,7 @@ In this task, we will configure Cloud Shell.
 
 3. If you have previously used the Cloud Shell, proceed to the next task. 
 
-4. When prompted to select either **Bash** or **PowerShell**, select **PowerShell**. 
+4. When prompted to select either **Bash** or **PowerShell**, select **PowerShell**.
 
 5. When prompted, click **Create storage**, and wait for the Azure Cloud Shell to initialize. 
 
@@ -53,6 +53,7 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
     -SecurityGroupName "myNSGPS" `
     -PublicIpAddressName "myPublicIpPS"
     ```
+** Wait for VM to deploy before closing PowerShell
 
 5. Close the PowerShell session Cloud Shell pane.
 

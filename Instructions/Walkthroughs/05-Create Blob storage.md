@@ -1,19 +1,19 @@
 ---
 wts:
-    title: '04 - Create blob storage'
-    module: 'Module 02 - Core Azure Services'
+    title: '05 - Create blob storage (5 min)'
+    module: 'Module 02 - Core Azure Services (Workloads)'
 ---
-# 04 - Create blob storage
+# 05 - Create blob storage
 
 In this walkthrough, we will create a storage account, then work with blob storage files.
 
-# Task 1: Create a storage account
+# Task 1: Create a storage account (5 min)
 
 In this task, we will create a new storage account. 
 
 1. Sign in to the Azure portal at <a href="https://portal.azure.com" target="_blank"><span style="color: #0066cc;" color="#0066cc">https://portal.azure.com</span></a>
 
-2. From the **All services** blade, search for and select **Storage accounts**, and then click **+ Add**. 
+2. From the **All services** blade, search for and select **Storage accounts**, and then click **+ Add, + Create, or + New**. 
 
 3. On the **Basics** tab of the **Create storage account** blade, fill in the following information (replace **xxxx** in the name of the storage account with letters and digits such that the name is globally unique). Leave the defaults for everything else.
 
@@ -26,8 +26,9 @@ In this task, we will create a new storage account.
     | Performance | **Standard** |
     | Account kind | **StorageV2 (general purpose v2)** |
     | Replication | **Locally redundant storage (LRS)** |
-    | Access tier (default) | **Hot** |
     | | |
+
+    **Note** - Remember to change the **xxxx** so that it makes a unique **Storage account name**
 
 5. Click **Review + Create** to review your storage account settings and allow Azure to validate the configuration. 
 
@@ -43,7 +44,7 @@ In this task, we will create a Blob container and upload a blob file.
 
 1. Click the name of the new storage account, scroll to the **Blob service** section, and then click **Containers**.
 
-2. Click **+ Container** and complete the information. Use the Information icons to learn more. When done click **OK**.
+2. Click **+ Container** and complete the information. Use the Information icons to learn more. When done click **Create**.
 
 
     | Setting | Value |
@@ -70,13 +71,13 @@ In this task, we will create a Blob container and upload a blob file.
 
 # Task 3: Monitor the storage account
 
-1. If neeeded, return to the storage account blade and click **Diagnose and solve problems**. 
+1. If needed, return to the storage account blade and click **Diagnose and solve problems**. 
 
 2. Explore some of the most common storage problems. Notice there are multiple troubleshooter.
 
-3. On the storage account blade, scroll down to the **Monitoring** section and click **Insights (preview)**. Notice there is information on Failures, Performance, Availability, and Capacity. Your information will be different.
+3. On the storage account blade, scroll down to the **Monitoring** section and click **Insights**. Notice there is information on Failures, Performance, Availability, and Capacity. Your information will be different.
 
-    ![Screenshot of the storage account Insights page.](../images/0403.png)
+    ![Screenshot of the storage account Insights page.](../images/0403.PNG)
 
 Congratulations! You have created a storage account, then worked with storage blobs.
 
